@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #ffffff;
+  /* min-height: 100vh; */
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sq-sm {
+  width: 3rem;
+  height: 3rem;
+}
+.sq-full {
+  height: 100%;
+  width: 100%;
+}
+
+.link-trans-all{
+  transition: all;
+  transition-duration: 300ms;
+  color: black;
+}
+.link-trans-all:hover{
+  color: rgba(0,0,0,60%);
+}
